@@ -11,6 +11,7 @@
   "parameters": {
     "acrName": {
       "type": "string",
+       "defaultValue": TestVeeraACR1,
       "metadata": {
         "description": "Name of the azure container registry (must be globally unique)"
       },
@@ -19,7 +20,7 @@
     },
     "acrAdminUserEnabled": {
       "type": "bool",
-      "defaultValue": false,
+      "defaultValue": true,
       "metadata": {
         "description": "Enable an admin user that has push/pull permission to the registry."
       }
