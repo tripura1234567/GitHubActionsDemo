@@ -11,7 +11,7 @@
   "parameters": {
     "acrName": {
       "type": "string",
-       "defaultValue": TestVeeraACR1,
+       "defaultValue": "TestVeeraACR1",
       "metadata": {
         "description": "Name of the azure container registry (must be globally unique)"
       },
